@@ -14,6 +14,7 @@ SELECT SUM(Value) FROM milk_production WHERE Year = 2023;
 
 #2
 SELECT State_ANSI FROM cheese_production WHERE Year = 2023 AND Period = 'APR' AND Value > 100000000;
+![Uploading image.png…]()
 
 #3
 SELECT Year, SUM(Value) FROM coffee_production GROUP BY Year;
